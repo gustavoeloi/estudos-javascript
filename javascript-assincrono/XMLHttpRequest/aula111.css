@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  background: #8b9dc3;
+}
+
+.container {
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.subtitle {
+  color: aliceblue;
+  font-size: 24px;
+  font-style: italic;
+}
+
+button {
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #3b5998;
+  color: white;
+  width: 240px;
+  cursor: pointer;
+}
+
+.advice {
+  font-size: 24px;
+
+  color: #b6166e;
+}
