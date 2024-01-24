@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudando Webpack</title>
+</head>
+
+<body class="body">
+  <main class="main">
+    <h1>Criando um Gerador de Senhas</h1>
+    <div class="resultado">
+      <span class="senha-gerada">Selecione as opções</span>
+    </div>
+
+    <div class="container">
+      <label for="">
+        Quantidade de Caracteres
+        <input type="number" min="1" max="50" class="input-qtd">
+      </label>
+
+      <label for="">Adicionar Letras Maiúsculas
+        <input type="checkbox" class="chk-maiusculas" checked>
+      </label>
+
+      <label for="">Adicionar Letras Minúsculas
+        <input type="checkbox" class="chk-minusculas" checked>
+      </label>
+
+      <label for="">Adicionar Números
+        <input type="checkbox" class="chk-numeros" checked>
+      </label>
+
+
+      <label for="">Adicionar Símbolos
+        <input type="checkbox" class="chk-simbolos" checked>
+      </label>
+
+      <button class="btn-password">Gerar Senha</button>
+    </div>
+
+  </main>
+  <script src="./assets/js/bundle.js" defer></script>
+</body>
+
+</html>
