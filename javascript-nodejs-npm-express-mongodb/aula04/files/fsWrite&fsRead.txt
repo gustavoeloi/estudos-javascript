@@ -1,0 +1,1 @@
+"Estou criando esse arquivo usando o fs.write e lendo o conteúdo com fs.readFile"
